@@ -18,4 +18,16 @@
             HTTP Request TYPE :POST
             form-data : file=location of file 
             http://localhost:8080/employee/file/uploadFile
-	    curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=Test.txt" http://localhost:8080/employee/file/uploadFile
+
+
+## To run MyVmUI
+1. Open my-vm-ui in command prompt
+
+        npm install
+   
+2. To Start project
+   
+        npm start
+   
+3. Open http://localhost:4200 and Enter email as thrinod@test.com and password as 123456 to login the app
+
