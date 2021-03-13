@@ -18,3 +18,4 @@
             HTTP Request TYPE :POST
             form-data : file=location of file 
             http://localhost:8080/employee/file/uploadFile
+	    curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=Test.txt" http://localhost:8080/employee/file/uploadFile
