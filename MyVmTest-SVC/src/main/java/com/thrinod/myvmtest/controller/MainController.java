@@ -19,7 +19,7 @@ public class MainController {
     @Autowired
     private EmpService empService;
 
-    @PostMapping("/employee/file/uploadFile")
+    @PostMapping("/employee/file/upload")
     public @ResponseBody
     String hello(@RequestParam("file") MultipartFile file)  throws Exception  {
         EmpFile empFile = new EmpFile();
